@@ -1,9 +1,13 @@
-lager_loc
-=====
+# lager_loc
 
-An OTP application
+## Build
 
-Build
------
+```
+rebar3 compile
+```
 
-    $ rebar3 compile
+## Run
+
+```
+erl -s lager_loc
+```
